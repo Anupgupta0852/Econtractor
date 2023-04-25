@@ -1,0 +1,26 @@
+.about-counter .container-fluid {
+    padding: 0;
+  }
+  .about-counter-single {
+    border-right: 0 none;
+  }
+  .about-counter {
+    background: #fff none repeat scroll 0 0;
+    padding: 0;
+  }
+  .about-counter-single {
+    border-right: 0 none;
+    padding: 59px 0 46px;
+  }
+  .cnt1.about-counter-single {
+    background: #f3f3f3 none repeat scroll 0 0;
+  }
+  .cnt2.about-counter-single {
+    background: #e8e8e8 none repeat scroll 0 0;
+  }
+  .cnt3.about-counter-single {
+    background: #f3f3f3 none repeat scroll 0 0;
+  }
+  .cnt4.about-counter-single {
+    background: #e8e8e8 none repeat scroll 0 0;
+  }

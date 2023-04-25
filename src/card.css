@@ -1,0 +1,86 @@
+.clickable-card {
+    display: block;
+    max-width: 400px;
+    margin-inline: auto;
+    border-radius: 16px;
+    border: 1px solid #000 !important;
+    border-color: black;
+    overflow: hidden;
+    box-shadow: none;
+    background: #fff;
+    transform-origin: center center;
+    transition: all 0.4s ease-in-out;
+    text-decoration: none;
+    color: rgb(129, 105, 105);
+  }
+  
+  .clickable-card h2,
+  .clickable-card .read-more {
+    transition: color 0.4s ease-in-out;
+  }
+  
+  .clickable-card img {
+    transform-origin: center;
+    transition: transform 0.4s ease-in-out;
+  }
+  
+  .clickable-card:hover .read-more,
+  .clickable-card:focus .read-more,
+  .clickable-card:hover h2,
+  .clickable-card:focus h2 {
+    color: rgb(17,109,255);
+  }
+  
+  .clickable-card:hover img,
+  .clickable-card:focus img {
+    transform: scale(1.1);
+  }
+  
+  .article-body {
+    padding: 24px;
+  }
+  
+  .clickable-card h2 {
+    margin: 0 0 18px 0;
+    font-family: "Urbanist", cursive;
+    font-size: 1.9rem;
+    letter-spacing: 0.06em;
+    transition: color 0.3s ease-out;
+  }
+  p{
+    font-family: "Urbanist";
+  }
+  img {
+    max-width: 100%;
+  }
+  
+  figure {
+    margin: 0;
+    padding: 0;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+  }
+  
+  /************************
+  Generic layout 
+  **************************/
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+
+/* <div className="col-md-3 col-5 mx-auto">
+<div className="card gyy-2">
+  <img src="https://picsum.photos/id/210/200" className="card-img-top card_img" alt="Card" />
+    <div className="card-body cardtextCOL">
+    <h5 className="card-title font-weight-bold"></h5>
+    <p className="card-text">Now easily get the items just by contacting</p>
+    <div className="btn btn-primary serbuttons">
+      Get Best Deal
+    </div>
+  </div>
+</div>
+</div> */

@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Bree+Serif&family=Syne+Mono&display=swap");
+
+* {
+  font-family: "Merriweather", serif;
+}
+.footercolor {
+  color: #101010;
+  background-color: rgb(32,31,51);
+    color: rgb(236, 230, 230) !important;
+    margin-top: 15px !important;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  
+  .colh {
+    color: rgb(17,109,255) !important;
+  }
+  
+  .footer {
+    background-color: #281d1d;
+  }
+  
+  .pgrow {
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -ms-flex-wrap: wrap !important;
+    flex-wrap: wrap !important;
+    margin-right: -15px !important;
+    margin-left: 15px !important;
+  }
+  
