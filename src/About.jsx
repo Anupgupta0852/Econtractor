@@ -18,9 +18,7 @@ const About = () => {
         with a focus on dependability and Find the information about people involved in construction of a building. 
         We're working to turn our passion for providing best we can into a booming online website. 
         We hope you enjoy our website as much as we enjoy offering them to you.
-        <br/>
         I will keep posting more important posts on my Website for all of you. Please give your support and love.
-        <br/>
         Thanks For Visiting Our Site
         Have a nice day!"
       />

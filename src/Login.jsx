@@ -226,7 +226,7 @@ const Login = () => {
                 class="fsizeLogin  card-body px-5 py-4"
               >
                 <div _ngcontent-serverapp-c111="" class="small text-center">
-                  New user? <NavLink to="/contact">Create an account!</NavLink>
+                 <NavLink to="/contact">Contact Us</NavLink>
                 </div>
               </div>
             </div>
